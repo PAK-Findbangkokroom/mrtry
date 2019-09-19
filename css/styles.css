@@ -1,0 +1,184 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+#color-break {
+    color: whitesmoke;
+    background-color: #313131;
+    padding : 1.5% 20%; 
+}
+
+/*Headings*/
+ 
+.big-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding : 5% 12%;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+    padding: auto;
+   /*padding : 0 0 4.5rem;*/
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-size: 2.5rem;
+    font-weight: bold; 
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+     
+}
+
+/*Title Section*/
+
+#head-menu {
+    
+    background-color: #313131;
+    padding : 0.5% 10%;
+    
+}
+
+
+/* Title Image*/ 
+.title-image{
+    width: 80%;
+    height: 10%;
+}
+
+#title-carousel{
+    background-color: #212121 ;
+}
+
+/* Title-detail Section*/
+#transport {
+    padding: 5% 10%;
+    color : #684949;}
+
+#transport h1 {
+    padding: 2% 0%;
+}
+
+/*factsheet*/
+.factsheet-table{
+    width: 60%;
+    align-content: center;
+}
+
+/*Room type Section*/
+.roomtype-card{
+    margin-top: 16px;
+    padding-top: 16px;
+    background-color: antiquewhite;
+    border-width: 5px;
+}
+
+
+
+/*facilities*/
+#facilities-carousel{
+    background-color: antiquewhite;
+}
+
+
+.facility-des{
+    line-height: 150%;
+    padding-top: 3%;
+}
+
+
+/*index Location*/
+.location-des{
+    text-align: center;
+}
+
+.map{
+    padding: 2% 0%;
+    background-color: antiquewhite;
+}
+
+
+
+/*contact-form*/
+.contact-form{
+    margin: 2% auto;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #313131;
+    padding: 1.5% 2%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.gotop{
+    z-index: 1;
+    margin-top: 0px;
+    color: antiquewhite;
+    margin-bottom: 1.5%;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+.copyright{
+    font-size: 12px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    
+}
+
+/*Location-Page*/
+#location-map {
+    margin: 2% auto;
+}
+
+/*Room tupe each page*/
+#PH1-carousel{
+    background-color: antiquewhite;
+}
+#PH2-carousel{
+    background-color: antiquewhite;
+}
+#GPH3-carousel{
+    background-color: antiquewhite;
+}
+
+#sqm-146-carousel{
+    background-color: antiquewhite;
+}
+#sqm-193-carousel{
+    background-color: antiquewhite;
+}
+#sqm-90-carousel{
+    background-color: antiquewhite;
+}

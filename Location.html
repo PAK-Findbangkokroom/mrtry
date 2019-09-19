@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Location</title>
+                  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+                 
+    <!-- css stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+                    
+     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+                    
+    <!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+                
+</head>
+<body>
+<section id="head-menu">
+    <div class="head-navbar">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">Millennium Residence</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> 
+              <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="room-type.html">Room Type</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Facility.html">Facility</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Location.html">Location</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      </div>
+      
+      </nav>
+    </div>
+  </section>
+  <div id="color-break">
+      <h1>LOCATION</h1>
+      </div>  
+  
+  <section>
+    <div id="location-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.8105651926994!2d100.56084995066519!3d13.729915990314305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQzJzQ3LjciTiAxMDDCsDMzJzQ3LjAiRQ!5e0!3m2!1sth!2sth!4v1560743205070!5m2!1sth!2sth" 
+                width="1000" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section>
+      <h1>Description HERE</h1>
+  </section>
+   
+  <section id="location-nearby">
+        <style>
+                * {
+                  box-sizing: border-box;
+                }
+                
+                
+                /* The grid: Four equal columns that floats next to each other */
+                .column {
+                  float: left;
+                  width: 25%;
+                  padding: 10px;
+                }
+                
+                /* Style the images inside the grid */
+                .column img {
+                  opacity: 0.8; 
+                  cursor: pointer; 
+                }
+                
+                .column img:hover {
+                  opacity: 1;
+                }
+                
+                /* Clear floats after the columns */
+                .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+                }
+                
+                /* The expanding image container */
+                .container {
+                  position: relative;
+                  display: none;
+                }
+                
+                /* Expanding image text */
+                #imgtext {
+                  position: absolute;
+                  bottom: 15px;
+                  left: 15px;
+                  color: white;
+                  font-size: 20px;
+                }
+                
+                /* Closable button inside the expanded image */
+                .closebtn {
+                  position: absolute;
+                  top: 10px;
+                  right: 15px;
+                  color: white;
+                  font-size: 35px;
+                  cursor: pointer;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <div style="text-align:center">
+                  <h2>Tabbed Image Gallery</h2>
+                  <p>Click on the images below:</p>
+                </div>
+                
+                <!-- The four columns -->
+                <div class="row">
+                  <div class="column">
+                    <img src="https://i.pinimg.com/236x/f9/52/59/f95259adbb49e4f329d986d286787aca--alphabet.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img src="https://i.pinimg.com/236x/f9/52/59/f95259adbb49e4f329d986d286787aca--alphabet.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img src="https://i.pinimg.com/236x/f9/52/59/f95259adbb49e4f329d986d286787aca--alphabet.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img src="https://i.pinimg.com/236x/f9/52/59/f95259adbb49e4f329d986d286787aca--alphabet.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+                  </div>
+                </div>
+                
+                <div class="container">
+                  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                  <img id="expandedImg" style="width:100%">
+                  <div id="imgtext"></div>
+                </div>
+                
+                <script>
+                function myFunction(imgs) {
+                  var expandImg = document.getElementById("expandedImg");
+                  var imgText = document.getElementById("imgtext");
+                  expandImg.src = imgs.src;
+                  imgText.innerHTML = imgs.alt;
+                  expandImg.parentElement.style.display = "block";
+                }
+                </script>
+
+  </section>
+
+</body>
+<footer>
+    <p class="copyright"><i class="far fa-copyright"></i> 2019 Findbangkokroom Co., Ltd.</p>
+ </footer>
+</html>
